@@ -1,0 +1,37 @@
+# Виртуальные окружения
+venv/
+env/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Секретные конфигурации
+.env
+.env.local
+.env.prod
+
+# База данных SQLite (локальная)
+db.sqlite3
+*.sqlite3
+
+# Медиа файлы
+media/
+/media/
+staticfiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+.pytest_cache/
