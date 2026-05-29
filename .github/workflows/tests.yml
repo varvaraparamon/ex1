@@ -63,4 +63,5 @@ jobs:
           DB_PASSWORD: adminpassword
           REDIS_HOST: localhost
         run: |
+          cd our_project/
           pytest
